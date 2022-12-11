@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'oss2022fall'
+        PROJECT_ID = 'https://github.com/Joy2won/simple-node-app.git'
         CLUSTER_NAME = 'kube'
         LOCATION = 'asia-northeast3-a'
         CREDENTIALS_ID = 'gke'
